@@ -10,7 +10,7 @@ import BlogDetail from './Components/BlogDetail'
 import ScrollToTop from './Components/ScrollToTop'
 const App = () => {
   return (
-  <div className=''>
+  <div className='overflow-hidden'>
     <ScrollToTop/>
     <Navbar/>
     <Routes>

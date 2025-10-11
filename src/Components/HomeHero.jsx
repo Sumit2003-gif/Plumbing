@@ -80,7 +80,7 @@ const HomeHero = () => {
           {/* CTA Button */}
           <a href="tel:1234567890">
             <motion.button
-              className="bg-red-600 cursor-pointer hover:bg-red-700 px-6 py-4 md:px-8 md:py-6 text-white font-semibold uppercase rounded-md text-sm"
+              className="bg-red-600 cursor-pointer mb-5  hover:bg-red-700 px-6 py-4 md:px-8 md:py-6 text-white font-semibold uppercase rounded-md text-sm"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: 'spring', stiffness: 300 }}
